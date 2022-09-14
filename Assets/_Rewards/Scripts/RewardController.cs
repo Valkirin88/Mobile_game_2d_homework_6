@@ -117,7 +117,7 @@ namespace Rewards
             if (!_isGetReward)
                 return;
 
-            Reward reward = _view.Rewards[_view.CurrentSlotInActive];
+            RewardConfig reward = _view.Rewards[_view.CurrentSlotInActive];
 
             switch (reward.RewardType)
             {
@@ -198,7 +198,7 @@ namespace Rewards
         {
             for (var i = 0; i < _slots.Count; i++)
             {
-                Reward reward = _view.Rewards[i];
+                RewardConfig reward = _view.Rewards[i];
                 int countPeriods = i + 1;
                 bool isSelected = i == _view.CurrentSlotInActive;
 

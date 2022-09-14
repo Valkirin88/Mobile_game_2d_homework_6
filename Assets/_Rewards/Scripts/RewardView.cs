@@ -18,7 +18,7 @@ namespace Rewards
         public float TimeDeadline { get; private set; } 
 
         [field: Header("Settings Rewards")]
-        [field: SerializeField] public List<Reward> Rewards { get; private set; }
+        [field: SerializeField] public List<RewardConfig> Rewards { get; private set; }
 
         [field: Header("Ui Elements")]
         [field: SerializeField] public TMP_Text TimerNewReward { get; private set; }

@@ -1187,15 +1187,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Period: 1
   <Rewards>k__BackingField:
-  - <RewardType>k__BackingField: 0
-    <IconCurrency>k__BackingField: {fileID: 21300000, guid: e0eac6b76fdd842e88a7f8c75ecffaf4, type: 3}
-    <CountCurrency>k__BackingField: 20
-  - <RewardType>k__BackingField: 1
-    <IconCurrency>k__BackingField: {fileID: 21300000, guid: f59401c5c79564fd1ae3bfb0876455a7, type: 3}
-    <CountCurrency>k__BackingField: 100
-  - <RewardType>k__BackingField: 0
-    <IconCurrency>k__BackingField: {fileID: 21300000, guid: a03a39af61d16d94298132cfd5437225, type: 3}
-    <CountCurrency>k__BackingField: 200
+  - {fileID: 11400000, guid: 56f98b7a08b7d2f47812156224695855, type: 2}
+  - {fileID: 11400000, guid: 2352a4e4a2735064da5904b530f7e65c, type: 2}
+  - {fileID: 11400000, guid: 56f98b7a08b7d2f47812156224695855, type: 2}
   <TimerNewReward>k__BackingField: {fileID: 932748650}
   <MountRootSlotsReward>k__BackingField: {fileID: 1928727020}
   <ContainerSlotRewardPrefab>k__BackingField: {fileID: 7979480310274708407, guid: 7beb3c2245749491c9b4795cc8b9a7e7, type: 3}

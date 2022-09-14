@@ -11,10 +11,9 @@ namespace Rewards
         [SerializeField] private Image _iconCurrency;
         [SerializeField] private TMP_Text _textDays;
         [SerializeField] private TMP_Text _countReward;
-        [SerializeField] private string _periodsName;
         private RewardView _rewardView;
 
-        public void SetData(Reward reward, int countPeriods, bool isSelected, RewardView rewardView)
+        public void SetData(RewardConfig reward, int countPeriods, bool isSelected, RewardView rewardView)
         {
             _rewardView = rewardView;
             _iconCurrency.sprite = reward.IconCurrency;

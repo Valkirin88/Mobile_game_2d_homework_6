@@ -1,10 +1,9 @@
-using System;
 using UnityEngine;
 
 namespace Rewards
 {
-    [Serializable]
-    internal class Reward
+    [CreateAssetMenu(fileName =nameof(RewardConfig), menuName ="Configs/" + nameof(RewardConfig))]
+    internal class RewardConfig : ScriptableObject
     {
         [field: SerializeField] public RewardType RewardType { get; private set; }
         [field: SerializeField] public Sprite IconCurrency { get; private set; }
